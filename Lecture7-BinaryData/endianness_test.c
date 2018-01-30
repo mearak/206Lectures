@@ -1,11 +1,10 @@
-/* File week7a_endianness_test.c 
-   Was covered in COMP 206 on Oct 17, 2016
+/* File endianness_test.c 
    
    Explores the byte-ordering of integers 
    on the system it's run on. By using a shorter
    pointer than the target data-type, we can access
-   the int it one byte at a time. Most Unix systems
-   are "Little Endian".
+   the int it one byte at a time. Most personal computer
+   systems are "Little Endian".
  
    Author: David Meger
 */

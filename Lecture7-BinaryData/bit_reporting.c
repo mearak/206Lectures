@@ -1,5 +1,4 @@
-/* File week6c_bit_reporting.c 
-   Was covered in COMP 206 on Oct 14, 2016
+/* File bit_reporting.c 
    
    Uses the bit-wise operations left-shift and
    bitwise logical AND to sequentially check the
@@ -17,7 +16,7 @@
 
 int main()
 {
-	char c = 42;
+	unsigned char c = 42;
 	int bit_number;
 	int bit_contribution;
 	int total_value = 0;

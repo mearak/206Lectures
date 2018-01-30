@@ -1,9 +1,9 @@
-/* The file week5b_steg_encoder.c
+/* The file steg_encoder.c
    is a larger systems example to demonstrate
    input, output and memory manipulation in C.
    
    Build this file with: 
-   gcc -o encoder week5b_steg_encoder.c
+   gcc -o encoder steg_encoder.c
    
    When both this, and the paired decoder are compiled, 
    then you can pass a message using a bmp file with these commands:
