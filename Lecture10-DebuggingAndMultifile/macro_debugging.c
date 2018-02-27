@@ -15,7 +15,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#undef DEBUG
 #ifdef DEBUG
     #define debug(x,y) printf(x,y)
 #else
