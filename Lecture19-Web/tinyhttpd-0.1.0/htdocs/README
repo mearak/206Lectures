@@ -1,8 +1,9 @@
-  These are sample CGI scripts and webpages for tinyhttpd.  They can
-be redistributed under the terms of the GPL.
+The files and programs in this folder are the "payload" that can be distributed by the web server. 
+Any path that you type in your web address after the port number will indicate a file here.
+For example:
 
-  The most impressive demonstration I gave of tinyhttpd to my
-professor and my classmates was to load color.cgi with a value of
-"chartreuse." :)  It's actually a very simple script, guys.
+localhost:<port>/Lecture_Example.html
 
-jdb
+Leads to the server accessing the "Lecture_Example.html" file in this folder.
+
+If no filename is requested by the user, the default one is "index.html" in this folder.
